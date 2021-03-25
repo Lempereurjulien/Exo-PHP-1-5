@@ -1,7 +1,11 @@
 <?php
-for($i=0;$i<=28;$i++){   
+for($j=1; $j<=12; $j++){
+    echo "Table : ",$j,"<br>";
+for($i=0;$i<=10;$i++){   
 
-    echo $i*13 , "<br>";
+    echo $i*$j , "<br>";
+}
+echo "<br>";
 }
 ?>
 
